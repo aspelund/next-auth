@@ -763,8 +763,8 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
       jose:
-        specifier: ^4.11.1
-        version: 4.11.1
+        specifier: ^4.15.5
+        version: 4.15.5
       nodemailer:
         specifier: ^6.8.0
         version: 6.8.0
@@ -882,8 +882,8 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       jose:
-        specifier: ^4.11.4
-        version: 4.14.0
+        specifier: ^4.15.5
+        version: 4.15.5
       nodemailer:
         specifier: ^6.6.5
         version: 6.7.3
@@ -12099,6 +12099,7 @@ packages:
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
+    requiresBuild: true
     dev: true
 
   /abort-controller@3.0.0:
@@ -19864,6 +19865,7 @@ packages:
   /is-accessor-descriptor@0.1.6:
     resolution: {integrity: sha512-e1BM1qnDbMRG3ll2U9dSK0UMHuWOs3pY3AtcFsmvwPtKL3MML/Q86i+GilLfvqEs4GW+ExB91tQ3Ig9noDIZ+A==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v0.1.7
     dependencies:
       kind-of: 3.2.2
     dev: false
@@ -19871,6 +19873,7 @@ packages:
   /is-accessor-descriptor@1.0.0:
     resolution: {integrity: sha512-m5hnHTkcVsPfqx3AKlyttIPb7J+XykHvJP2B9bZDjlhLIoEq4XoK64Vg7boZlVWYK6LUY94dYPEE7Lh0ZkZKcQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v1.0.1
     dependencies:
       kind-of: 6.0.3
     dev: false
@@ -19957,6 +19960,7 @@ packages:
   /is-data-descriptor@0.1.4:
     resolution: {integrity: sha512-+w9D5ulSoBNlmw9OHn3U2v51SyoCd0he+bB3xMl62oijhrspxowjU+AIcDY0N3iEJbUEkB15IlMASQsxYigvXg==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v0.1.5
     dependencies:
       kind-of: 3.2.2
     dev: false
@@ -19964,6 +19968,7 @@ packages:
   /is-data-descriptor@1.0.0:
     resolution: {integrity: sha512-jbRXy1FmtAoCjQkVmIVYwuuqDFUbaOeDjmed1tOGPrsMhtJA4rD9tkgA0F1qJ3gRFRXcHYVkdeaP50Q5rE/jLQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please upgrade to v1.0.1
     dependencies:
       kind-of: 6.0.3
     dev: false
@@ -23199,16 +23204,13 @@ packages:
   /jose@2.0.6:
     resolution: {integrity: sha512-FVoPY7SflDodE4lknJmbAHSUjLCzE2H1F6MS0RYKMQ8SR+lNccpMf8R4eqkNYyyUjR5qZReOzZo5C5YiHOCjjg==}
     engines: {node: '>=10.13.0 < 13 || >=13.7.0'}
+    deprecated: this version is no longer supported
     dependencies:
       '@panva/asn1.js': 1.0.0
     dev: true
 
-  /jose@4.11.1:
-    resolution: {integrity: sha512-YRv4Tk/Wlug8qicwqFNFVEZSdbROCHRAC6qu/i0dyNKr5JQdoa2pIGoS04lLO/jXQX7Z9omoNewYIVIxqZBd9Q==}
-    dev: false
-
-  /jose@4.14.0:
-    resolution: {integrity: sha512-LSA/XenLPwqk6e2L+PSUNuuY9G4NGsvjRWz6sJcUBmzTLEPJqQh46FHSUxnAQ64AWOkRO6bSXpy3yXuEKZkbIA==}
+  /jose@4.15.5:
+    resolution: {integrity: sha512-jc7BFxgKPKi94uOvEmzlSWFFe2+vASyXaKUpdQKatWAESU2MWjDfFf0fdfc83CDKcA5QecabZeNLyfhe3yKNkg==}
     dev: false
 
   /joycon@3.1.1:
@@ -25755,7 +25757,7 @@ packages:
   /openid-client@5.4.0:
     resolution: {integrity: sha512-hgJa2aQKcM2hn3eyVtN12tEA45ECjTJPXCgUh5YzTzy9qwapCvmDTVPWOcWVL0d34zeQoQ/hbG9lJhl3AYxJlQ==}
     dependencies:
-      jose: 4.14.0
+      jose: 4.15.5
       lru-cache: 6.0.0
       object-hash: 2.2.0
       oidc-token-hash: 5.0.1
